@@ -291,7 +291,7 @@ li > .menu-option {
   opacity: 0.7;
 }
 .inner-image-slider {
-  width: 1470px;
+  width: 1480px;
   max-height: 50vh;
   background: blue;
 }
@@ -301,7 +301,7 @@ li > .menu-option {
   margin-left: 20px;
 }
 .inner-image-slider li:first-of-type {
-  margin-left: 0;
+  margin-left: 10px;
 }
 .image-slider-container {
   width: 100%;
