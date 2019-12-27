@@ -1,6 +1,300 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* START OF STYLE */
+/* START OF STYLE */
+/* START OF STYLE */
+/* START OF STYLE */
+/* START OF STYLE */
+/* START OF STYLE */
+/* START OF STYLE */
+
 body {
   background: #222;
 }
 p {
   color: #fff;
 }
+
+/* Viewport */
+
+.viewport {
+  width: 100vw;
+  height: 100vh;
+  background: rgb(6, 215, 252);
+  box-shadow: inset 0 0 20px black;
+}
+
+/* Top */
+.top {
+  background: #000;
+  width: 100vw;
+  height: 11vh;
+  box-shadow: 0 0 10px black;
+}
+.upper-top {
+  width: 100vw;
+  height: 5vh;
+  background: #000;
+  text-align: center;
+}
+
+.upper-top-center {
+  width: 95%;
+  margin-left: 2.5%;
+  font-size: 2rem;
+  padding-top: 0.5vh;
+  height: 5vh;
+  line-height: 5vh;
+  text-shadow: 0 0 3px cyan;
+  font-family: "Rock Salt", cursive;
+}
+
+.lower-top {
+  margin-top: 1vh;
+  width: 100vw;
+  height: 5vh;
+  background: rgb(51, 156, 156);
+}
+.main-menu {
+  width: 100vw;
+  background: magenta;
+}
+.main-menu li {
+  width: 24vw;
+  float: left;
+  list-style: none;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  height: 4.5vh;
+}
+.main-menu li:first-of-type {
+  margin-left: 3.25vw;
+}
+li > .menu-option {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.menu-icon,
+.menu-text {
+  float: left;
+}
+.menu-icon {
+  width: 2.5vw;
+  background: black;
+  height: 4.5vh;
+  display: none;
+}
+.menu-text {
+  width: 90%;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: 0 0 5px white;
+  text-align: center;
+  background: black;
+  height: 4.6vh;
+  line-height: 4.6vh;
+  font-size: 1.2rem;
+}
+.menu-bot {
+  width: 100%;
+  height: 0.5vh;
+}
+/* Middle */
+.mid {
+  position: fixed;
+  left: 0;
+  top: 14vh;
+  height: 75vh;
+  width: 100vw;
+
+  background: black;
+  box-shadow: 0 0 10px black, inset 0 0 5px cyan;
+}
+.mid-inner {
+  width: 90%;
+  margin-left: 5%;
+  background: blue;
+  box-shadow: 0 0 10px cyan;
+}
+#top-mid {
+  height: 1vh;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.823);
+  box-shadow: 0 0 20px cyan;
+}
+#bot-mid {
+  height: 1vh;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.823);
+  box-shadow: 0 0 20px cyan;
+}
+.main-mid {
+  height: 73vh;
+  width: 100%;
+  background: #222;
+}
+
+/* Bottom */
+.bot {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin-top: 2.5vh;
+  height: 11vh;
+  width: 100vw;
+  background: #000;
+  color: #fff;
+  box-shadow: 0 0 10px black;
+}
+
+/*  */
+
+/*  */
+
+/*  */
+
+/*  */
+
+/*  */
+
+/*  */
+
+/*  */
+
+/*  */
+
+/*  */
+
+/*  */
+
+/*  */
+
+/*  */
