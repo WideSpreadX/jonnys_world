@@ -282,6 +282,7 @@ li > .menu-option {
   padding-top: 20px;
   overflow-x: scroll;
   overflow-y: hidden;
+  opacity: 0.7;
 }
 .inner-image-slider {
   width: 1460px;
