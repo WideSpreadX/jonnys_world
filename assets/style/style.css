@@ -277,7 +277,7 @@ li > .menu-option {
 }
 /* Image Slider */
 .outer-image-slider {
-  width: 79vw;
+  width: 90vw;
   height: 50vh;
   padding-top: 20px;
   overflow-x: scroll;
