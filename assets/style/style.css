@@ -284,7 +284,7 @@ li > .menu-option {
   overflow-y: hidden;
 }
 .inner-image-slider {
-  width: 1500px;
+  width: 1460px;
   max-height: 50vh;
   background: blue;
 }
@@ -294,7 +294,7 @@ li > .menu-option {
   margin-left: 20px;
 }
 .inner-image-slider li:first-of-type {
-  margin-left: 20px;
+  margin-left: 0;
 }
 .image-slider-container {
   width: 100%;
