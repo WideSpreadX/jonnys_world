@@ -139,6 +139,12 @@ table {
 body {
   background: #222;
 }
+.main-mid h3 {
+  padding: 10px;
+  box-shadow: 0 0 5px yellow, inset 0 0 5px yellow;
+  color: yellow;
+  border: solid 3px orange;
+}
 p {
   color: #fff;
 }
