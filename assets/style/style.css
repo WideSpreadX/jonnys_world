@@ -155,6 +155,9 @@ body {
 p {
   color: #fff;
 }
+a {
+  text-decoration: none;
+}
 .background {
   position: fixed;
   width: 100vw;
@@ -287,6 +290,12 @@ li > .menu-option {
   height: 73vh;
   width: 100%;
   background: rgba(34, 34, 34, 0.685);
+}
+.main-mid h2 {
+  color: white;
+  font-size: 22px;
+  text-align: center;
+  padding-top: 10px;
 }
 /* Image Slider */
 .outer-image-slider {
