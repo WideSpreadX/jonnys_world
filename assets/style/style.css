@@ -146,7 +146,7 @@ body {
   font-family: "Rajdhani", sans-serif;
   background: #222;
 }
-.main-mid h3 {
+.construction h3 {
   padding: 10px;
   box-shadow: 0 0 5px yellow, inset 0 0 5px yellow;
   color: yellow;
@@ -290,6 +290,7 @@ li > .menu-option {
   height: 73vh;
   width: 100%;
   background: rgba(34, 34, 34, 0.685);
+  overflow-y: scroll;
 }
 .main-mid h2 {
   color: white;
@@ -431,8 +432,54 @@ use {
   margin-left: 12px;
   border-radius: 6px;
 }
-/*  */
+/* About */
 
+.main-mid h3 {
+  color: black;
+  text-shadow: 0 0 2px cyan;
+  font-weight: bolder;
+  font-size: 26px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.school h3 {
+  color: cyan;
+  font-size: 22px;
+  padding-bottom: 10px;
+}
+.school h4 {
+  color: cyan;
+}
+.school h4 span {
+  color: white;
+}
+.school li {
+  color: white;
+}
+.school-left {
+  width: 50%;
+}
+.school-right {
+  width: 50%;
+  padding-left: 50%;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.stats {
+  width: 100%;
+}
+.stats li {
+  width: 25%;
+  float: left;
+  text-align: center;
+  color: yellow;
+}
+.computer-science li {
+  text-align: center;
+  width: 40%;
+  color: yellow;
+}
 /*  */
 
 /*  */
