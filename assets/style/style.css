@@ -442,7 +442,13 @@ use {
   text-align: center;
   padding-top: 20px;
 }
-
+.school {
+  background: rgb(0,0,0,0.3);
+  margin-top: 20px;
+  border-top: solid 3px cyan;
+  border-bottom: solid 3px cyan;
+  box-shadow: 0 0 10px cyan;
+}
 .school h3 {
   color: cyan;
   font-size: 22px;
